@@ -1,58 +1,32 @@
-# Image Caption Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/Python-3.7-blue.svg)
+[![CodeScene Code Health](https://codescene.io/projects/8416/status-badges/code-health)](https://codescene.io/projects/8416)
+# Image-Caption-Generator-Using-Deep-Learning
+<p>A Deep Neural Network based generative model for captioning images using CNN and LSTM with BEAM Search..</p>
+<p>Automatically generates captions for an image using CNN and NLP. Model was trained on Flickr30K dataset.</p>
+<p>Kaggle kernel: <a href="https://www.kaggle.com/ntikmr/image-captioning">https://www.kaggle.com/ntikmr/image-captioning</a>
 
-An AI-powered image caption generator that creates natural language descriptions of images using deep learning.
+<h2>Steps to install</h2>
+<ul>
+  <li>Clone the entire repository into a new folder.</li>
+  <li>Install the required dependencies using pip</li>
+  <li>Open <a href="gui.py">gui.py</a> and run the file</li>
+</ul>
 
-## Features
+<h2> Pre-Requisites</h2>
+<ul>
+  <li>Tensorflow V2.0</li>
+  <li>pandas</li>
+  <li>numpy</li>
+  <li>pickle</li>
+  <li>PIL</li>
+  <li>OpenCv</li>
+</ul>
 
-- Generates descriptive captions for uploaded images
-- Supports common image formats (JPG, PNG, JPEG)
-- Built with a CNN-LSTM architecture for accurate caption generation
-- Easy-to-use interface
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Chienkh123/image-caption-generator.git
-cd image-caption-generator
-```
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-## Usage
-1. Run the application:
-```python
-python app.py
-```
-
-2. Upload an image through the interface
-3. Get generated captions for your image
-
-## Model Architecture
-
-The caption generator uses a CNN-LSTM architecture:
-- CNN: Extracts image features using a pre-trained model
-- LSTM: Generates natural language captions based on the extracted features
-
-## Requirements
-
-- Python 3.7+
-- PyTorch
-- TensorFlow
-- PIL
-- NumPy
-- Other dependencies listed in requirements.txt
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgments
-
-- Built using [relevant frameworks/libraries]
-- Inspired by [relevant papers/projects]
+<h2>Examples </h2>
+<img src = "/images/snow.png">
+<img src = "/images/group.png">
+<img src = "/images/dog.png">
+<img src = "/images/race.png">
+<img src = "/images/guitar.png">
+<img src = "/images/work.png">
