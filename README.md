@@ -10,24 +10,22 @@ An AI-powered image caption generator that creates natural language descriptions
 - Easy-to-use interface
 
 ## Installation
+
 1. Clone the repository:
-```
-bash
-git clone https://github.com/yourusername/image-caption-generator.git
+```bash
+git clone https://github.com/Chienkh123/image-caption-generator.git
 cd image-caption-generator
 ```
 2. Install dependencies:
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 ## Usage
-
 1. Run the application:
-```
-bash
+```python
 python app.py
 ```
+
 2. Upload an image through the interface
 3. Get generated captions for your image
 
